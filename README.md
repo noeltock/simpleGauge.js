@@ -1,10 +1,10 @@
 simpleGauge
 ===========
 
-Overview
+Introduction
 ----------------
 
-Just a simple gauge using CSS3 &amp; jQuery.
+Just a simple gauge using pure CSS3. The jQuery only comes into effect for managing dynamic colors, grabbing data values and making it easier to implement multiple gauges.
 
 What it looks like?
 ----------------
