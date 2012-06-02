@@ -1,6 +1,17 @@
 simpleGauge
 ===========
 
+Overview
+----------------
+
 Just a simple gauge using CSS3 &amp; jQuery.
 
-![Example](http://www.noeltock.com/images/example.jpg)
+What it looks like?
+----------------
+
+![Example](http://www.noeltock.com/images/example.png)
+
+License
+----------------
+
+Released under GNU GPL ( [gnu.org](http://www.gnu.org/licenses/) )
