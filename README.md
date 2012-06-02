@@ -1,4 +1,4 @@
-simpleGauge
+simpleGauge.js
 ===========
 
 Introduction
