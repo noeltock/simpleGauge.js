@@ -5,22 +5,18 @@
 		// Defaults
 
         var defaults = {
-			width: '200px',
-            hueLow: '1', // Choose the starting hue for the active color (for value 0)
-            hueHigh: '128', // Choose the ending hue for the active color (for value 100)
-            saturation: '100%', // Saturation for active color
-            lightness: '50%', // Lightness for active color
-            gaugeBG: '#1b1b1f', // Background color of Gauge
+			width: '200',
+			hueLow: '1', // Choose the starting hue for the active color (for value 0)
+			hueHigh: '128', // Choose the ending hue for the active color (for value 100)
+			saturation: '100%', // Saturation for active color
+			lightness: '50%', // Lightness for active color
+			gaugeBG: '#1b1b1f', // Background color of Gauge
 			parentBG: '#323138' // This color should match the parent div of the gauge (or beyond)
         };
 		
 		var settings = $.extend({}, defaults, options);
 		
 		$(this).each(function(){
-		
-			// Size Settings
-			
-			
 		
 			// Color & Data Settings
 
