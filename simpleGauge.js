@@ -5,6 +5,7 @@
 		// Defaults
 
         var defaults = {
+			width: '200px',
             hueLow: '1', // Choose the starting hue for the active color (for value 0)
             hueHigh: '128', // Choose the ending hue for the active color (for value 100)
             saturation: '100%', // Saturation for active color
@@ -16,6 +17,10 @@
 		var settings = $.extend({}, defaults, options);
 		
 		$(this).each(function(){
+		
+			// Size Settings
+			
+			
 		
 			// Color & Data Settings
 
@@ -34,7 +39,12 @@
 			
 			// Set Colors
 			
-			$(this).find('.gauge-active, .gauge-wrap-before').css('background-color', 'hsla(' + Math.round(activeColor) + ', ' + settings.saturation + ', ' + settings.lightness + ', 1)');
+			if ( value ) {
+				$(this).find('.gauge-active, .gauge-wrap-before').css('background-color', 'hsla(' + Math.round(activeColor) + ', ' + settings.saturation + ', ' + settings.lightness + ', 1)');
+			} else {
+				$(this).find('.gauge-active, .gauge-wrap-before').hide();
+			}
+			
 			$(this).find('.gauge-bg, .gauge-wrap-after').css('background-color', settings.gaugeBG);
 			$(this).find('.gauge-cap').css('background-color', settings.parentBG);
 			
