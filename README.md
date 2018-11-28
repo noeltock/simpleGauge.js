@@ -9,7 +9,7 @@ Just a simple gauge using pure CSS3. The jQuery only comes into effect for manag
 What it looks like?
 ----------------
 
-![Example](/images/example.png?raw=true)
+![Example](/example/example.png?raw=true)
 
 License
 ----------------
